@@ -1,0 +1,30 @@
+.footer-wrapper {
+  background-color: #070b0d;
+  border: none;
+  color: rgb(177, 169, 169);
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+
+  h5 {
+    font-size: 2vh;
+
+    .author {
+      font-weight: bolder;
+      background: #3ecfca;
+      background: linear-gradient(to right, #3ecfca 28%, #cf19b7 74%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .footer-wrapper {
+    h5 {
+      font-size: 2vh !important;
+    }
+  }
+}
